@@ -1,6 +1,6 @@
 {
-  "28732": {
-    "OBJECTID": 28732,
+  "28858": {
+    "OBJECTID": 28858,
     "Eil_Nr": 1,
     "Pasirašymo_data": 1562101200000,
     "Galiojimo_terminas": 1824411600000,
@@ -10,8 +10,8 @@
     "Papildoma_informacija": "60MW VE; 17MW SE; 12MW EEKĮ",
     "Prijungimo_tasko_itampa_kV": 110
   },
-  "28733": {
-    "OBJECTID": 28733,
+  "28859": {
+    "OBJECTID": 28859,
     "Eil_Nr": 2,
     "Pasirašymo_data": 1598302800000,
     "Galiojimo_terminas": 1866664800000,
@@ -21,8 +21,8 @@
     "Papildoma_informacija": "30MW VE; 25MW EEKĮ",
     "Prijungimo_tasko_itampa_kV": 110
   },
-  "28734": {
-    "OBJECTID": 28734,
+  "28860": {
+    "OBJECTID": 28860,
     "Eil_Nr": 3,
     "Pasirašymo_data": 1607983200000,
     "Galiojimo_terminas": 1865800800000,
@@ -32,8 +32,8 @@
     "Papildoma_informacija": "30MW VE; 24MW EEKĮ",
     "Prijungimo_tasko_itampa_kV": 110
   },
-  "28735": {
-    "OBJECTID": 28735,
+  "28861": {
+    "OBJECTID": 28861,
     "Eil_Nr": 4,
     "Pasirašymo_data": 1632171600000,
     "Galiojimo_terminas": 1860962400000,
@@ -43,8 +43,8 @@
     "Papildoma_informacija": "65MW SE; 25MW EEKĮ",
     "Prijungimo_tasko_itampa_kV": 110
   },
-  "28736": {
-    "OBJECTID": 28736,
+  "28862": {
+    "OBJECTID": 28862,
     "Eil_Nr": 5,
     "Pasirašymo_data": 1645135200000,
     "Galiojimo_terminas": 1802901600000,
@@ -54,8 +54,8 @@
     "Papildoma_informacija": "Rezervuota prijungimo sąlygomis prieš 2022-07-08",
     "Prijungimo_tasko_itampa_kV": 330
   },
-  "28737": {
-    "OBJECTID": 28737,
+  "28863": {
+    "OBJECTID": 28863,
     "Eil_Nr": 6,
     "Pasirašymo_data": 1647900000000,
     "Galiojimo_terminas": 1805666400000,
@@ -65,8 +65,8 @@
     "Papildoma_informacija": "Rezervuota prijungimo sąlygomis prieš 2022-07-08",
     "Prijungimo_tasko_itampa_kV": 110
   },
-  "28738": {
-    "OBJECTID": 28738,
+  "28864": {
+    "OBJECTID": 28864,
     "Eil_Nr": 7,
     "Pasirašymo_data": 1647900000000,
     "Galiojimo_terminas": 1868824800000,
@@ -76,8 +76,8 @@
     "Papildoma_informacija": "70MW SE; 18MW EEKĮ",
     "Prijungimo_tasko_itampa_kV": 110
   },
-  "28739": {
-    "OBJECTID": 28739,
+  "28865": {
+    "OBJECTID": 28865,
     "Eil_Nr": 8,
     "Pasirašymo_data": 1647986400000,
     "Galiojimo_terminas": 1798668000000,
@@ -87,8 +87,8 @@
     "Papildoma_informacija": "",
     "Prijungimo_tasko_itampa_kV": 110
   },
-  "28740": {
-    "OBJECTID": 28740,
+  "28866": {
+    "OBJECTID": 28866,
     "Eil_Nr": 9,
     "Pasirašymo_data": 1648414800000,
     "Galiojimo_terminas": 1903554000000,
@@ -98,8 +98,8 @@
     "Papildoma_informacija": "70MW SE; 14,4MW VE; 20MW EEKĮ. Leistina galia EEKĮ įkrovimui - 0MW",
     "Prijungimo_tasko_itampa_kV": 110
   },
-  "28741": {
-    "OBJECTID": 28741,
+  "28867": {
+    "OBJECTID": 28867,
     "Eil_Nr": 10,
     "Pasirašymo_data": 1648760400000,
     "Galiojimo_terminas": 1806526800000,
@@ -109,8 +109,8 @@
     "Papildoma_informacija": "Rezervuota prijungimo sąlygomis prieš 2022-07-08",
     "Prijungimo_tasko_itampa_kV": 110
   },
-  "28742": {
-    "OBJECTID": 28742,
+  "28868": {
+    "OBJECTID": 28868,
     "Eil_Nr": 11,
     "Pasirašymo_data": 1649624400000,
     "Galiojimo_terminas": 1807390800000,
@@ -120,8 +120,8 @@
     "Papildoma_informacija": "Rezervuota prijungimo sąlygomis prieš 2022-07-08",
     "Prijungimo_tasko_itampa_kV": 330
   },
-  "28743": {
-    "OBJECTID": 28743,
+  "28869": {
+    "OBJECTID": 28869,
     "Eil_Nr": 12,
     "Pasirašymo_data": 1649970000000,
     "Galiojimo_terminas": 1868220000000,
@@ -131,8 +131,8 @@
     "Papildoma_informacija": "60MW SE; 15MW EEKĮ",
     "Prijungimo_tasko_itampa_kV": 110
   },
-  "28744": {
-    "OBJECTID": 28744,
+  "28870": {
+    "OBJECTID": 28870,
     "Eil_Nr": 13,
     "Pasirašymo_data": 1650402000000,
     "Galiojimo_terminas": 1861826400000,
@@ -142,8 +142,8 @@
     "Papildoma_informacija": "40MW SE prijungta; 20MW EEKĮ",
     "Prijungimo_tasko_itampa_kV": 110
   },
-  "28745": {
-    "OBJECTID": 28745,
+  "28871": {
+    "OBJECTID": 28871,
     "Eil_Nr": 14,
     "Pasirašymo_data": 1651093200000,
     "Galiojimo_terminas": 1780606800000,
@@ -153,8 +153,8 @@
     "Papildoma_informacija": "",
     "Prijungimo_tasko_itampa_kV": 110
   },
-  "28746": {
-    "OBJECTID": 28746,
+  "28872": {
+    "OBJECTID": 28872,
     "Eil_Nr": 15,
     "Pasirašymo_data": 1654117200000,
     "Galiojimo_terminas": 1811883600000,
@@ -164,8 +164,8 @@
     "Papildoma_informacija": "Rezervuota prijungimo sąlygomis prieš 2022-07-08",
     "Prijungimo_tasko_itampa_kV": 110
   },
-  "28747": {
-    "OBJECTID": 28747,
+  "28873": {
+    "OBJECTID": 28873,
     "Eil_Nr": 16,
     "Pasirašymo_data": 1654203600000,
     "Galiojimo_terminas": 1811970000000,
@@ -175,8 +175,8 @@
     "Papildoma_informacija": "Rezervuota prijungimo sąlygomis prieš 2022-07-08",
     "Prijungimo_tasko_itampa_kV": 110
   },
-  "28748": {
-    "OBJECTID": 28748,
+  "28874": {
+    "OBJECTID": 28874,
     "Eil_Nr": 17,
     "Pasirašymo_data": 1654549200000,
     "Galiojimo_terminas": 1830204000000,
@@ -186,8 +186,8 @@
     "Papildoma_informacija": "",
     "Prijungimo_tasko_itampa_kV": 330
   },
-  "28749": {
-    "OBJECTID": 28749,
+  "28875": {
+    "OBJECTID": 28875,
     "Eil_Nr": 18,
     "Pasirašymo_data": 1654549200000,
     "Galiojimo_terminas": 1880744400000,
@@ -197,8 +197,8 @@
     "Papildoma_informacija": "280MW SE; 130MW EEKĮ",
     "Prijungimo_tasko_itampa_kV": 330
   },
-  "28750": {
-    "OBJECTID": 28750,
+  "28876": {
+    "OBJECTID": 28876,
     "Eil_Nr": 19,
     "Pasirašymo_data": 1654549200000,
     "Galiojimo_terminas": 1883422800000,
@@ -208,8 +208,8 @@
     "Papildoma_informacija": "150MW SE; 110MW EEKĮ",
     "Prijungimo_tasko_itampa_kV": 330
   },
-  "28751": {
-    "OBJECTID": 28751,
+  "28877": {
+    "OBJECTID": 28877,
     "Eil_Nr": 20,
     "Pasirašymo_data": 1654635600000,
     "Galiojimo_terminas": 1831759200000,
@@ -219,8 +219,8 @@
     "Papildoma_informacija": "70MW SE; 69MW VE; 7MW EEKĮ",
     "Prijungimo_tasko_itampa_kV": 110
   },
-  "28752": {
-    "OBJECTID": 28752,
+  "28878": {
+    "OBJECTID": 28878,
     "Eil_Nr": 21,
     "Pasirašymo_data": 1654635600000,
     "Galiojimo_terminas": 1830204000000,
@@ -230,8 +230,8 @@
     "Papildoma_informacija": "",
     "Prijungimo_tasko_itampa_kV": 110
   },
-  "28753": {
-    "OBJECTID": 28753,
+  "28879": {
+    "OBJECTID": 28879,
     "Eil_Nr": 22,
     "Pasirašymo_data": 1654808400000,
     "Galiojimo_terminas": 1806354000000,
@@ -241,8 +241,8 @@
     "Papildoma_informacija": "",
     "Prijungimo_tasko_itampa_kV": 110
   },
-  "28754": {
-    "OBJECTID": 28754,
+  "28880": {
+    "OBJECTID": 28880,
     "Eil_Nr": 23,
     "Pasirašymo_data": 1655067600000,
     "Galiojimo_terminas": 1798668000000,
@@ -252,8 +252,8 @@
     "Papildoma_informacija": "",
     "Prijungimo_tasko_itampa_kV": 110
   },
-  "28755": {
-    "OBJECTID": 28755,
+  "28881": {
+    "OBJECTID": 28881,
     "Eil_Nr": 24,
     "Pasirašymo_data": 1655067600000,
     "Galiojimo_terminas": 1872277200000,
@@ -263,8 +263,8 @@
     "Papildoma_informacija": "390MW VE; 250MW SE; 50MW EEKĮ",
     "Prijungimo_tasko_itampa_kV": 330
   },
-  "28756": {
-    "OBJECTID": 28756,
+  "28882": {
+    "OBJECTID": 28882,
     "Eil_Nr": 25,
     "Pasirašymo_data": 1655154000000,
     "Galiojimo_terminas": 1788037200000,
@@ -274,8 +274,8 @@
     "Papildoma_informacija": "",
     "Prijungimo_tasko_itampa_kV": 110
   },
-  "28757": {
-    "OBJECTID": 28757,
+  "28883": {
+    "OBJECTID": 28883,
     "Eil_Nr": 26,
     "Pasirašymo_data": 1655154000000,
     "Galiojimo_terminas": 1902344400000,
@@ -285,8 +285,8 @@
     "Papildoma_informacija": "VE 30MW; EEKĮ 26MW",
     "Prijungimo_tasko_itampa_kV": 110
   },
-  "28758": {
-    "OBJECTID": 28758,
+  "28884": {
+    "OBJECTID": 28884,
     "Eil_Nr": 27,
     "Pasirašymo_data": 1655154000000,
     "Galiojimo_terminas": 1831068000000,
@@ -296,8 +296,8 @@
     "Papildoma_informacija": "111,6MW SE; 111,6MW VE; 27MW EEKĮ",
     "Prijungimo_tasko_itampa_kV": 330
   },
-  "28759": {
-    "OBJECTID": 28759,
+  "28885": {
+    "OBJECTID": 28885,
     "Eil_Nr": 28,
     "Pasirašymo_data": 1655154000000,
     "Galiojimo_terminas": 1786914000000,
@@ -307,8 +307,8 @@
     "Papildoma_informacija": "",
     "Prijungimo_tasko_itampa_kV": 110
   },
-  "28760": {
-    "OBJECTID": 28760,
+  "28886": {
+    "OBJECTID": 28886,
     "Eil_Nr": 29,
     "Pasirašymo_data": 1655326800000,
     "Galiojimo_terminas": 1806354000000,
@@ -318,8 +318,8 @@
     "Papildoma_informacija": "",
     "Prijungimo_tasko_itampa_kV": 110
   },
-  "28761": {
-    "OBJECTID": 28761,
+  "28887": {
+    "OBJECTID": 28887,
     "Eil_Nr": 30,
     "Pasirašymo_data": 1655413200000,
     "Galiojimo_terminas": 1854651600000,
@@ -329,8 +329,8 @@
     "Papildoma_informacija": "70MW SE; 43,2MW VE; 7MW EEKĮ",
     "Prijungimo_tasko_itampa_kV": 110
   },
-  "28762": {
-    "OBJECTID": 28762,
+  "28888": {
+    "OBJECTID": 28888,
     "Eil_Nr": 31,
     "Pasirašymo_data": 1655758800000,
     "Galiojimo_terminas": 1853096400000,
@@ -340,8 +340,8 @@
     "Papildoma_informacija": "8,5MW VE; 8,5MW EEKĮ",
     "Prijungimo_tasko_itampa_kV": 110
   },
-  "28763": {
-    "OBJECTID": 28763,
+  "28889": {
+    "OBJECTID": 28889,
     "Eil_Nr": 32,
     "Pasirašymo_data": 1656277200000,
     "Galiojimo_terminas": 1832450400000,
@@ -351,8 +351,8 @@
     "Papildoma_informacija": "100MW VE; 100MW SE; 10MW EEKĮ",
     "Prijungimo_tasko_itampa_kV": 330
   },
-  "28764": {
-    "OBJECTID": 28764,
+  "28890": {
+    "OBJECTID": 28890,
     "Eil_Nr": 33,
     "Pasirašymo_data": 1656277200000,
     "Galiojimo_terminas": 1808168400000,
@@ -362,8 +362,8 @@
     "Papildoma_informacija": "",
     "Prijungimo_tasko_itampa_kV": 330
   },
-  "28765": {
-    "OBJECTID": 28765,
+  "28891": {
+    "OBJECTID": 28891,
     "Eil_Nr": 34,
     "Pasirašymo_data": 1656277200000,
     "Galiojimo_terminas": 1882472400000,
@@ -373,8 +373,8 @@
     "Papildoma_informacija": "Sąlygos su plėtra. 300MW SE; 161MW VE; 100MW EEKĮ",
     "Prijungimo_tasko_itampa_kV": 330
   },
-  "28766": {
-    "OBJECTID": 28766,
+  "28892": {
+    "OBJECTID": 28892,
     "Eil_Nr": 35,
     "Pasirašymo_data": 1656363600000,
     "Galiojimo_terminas": 1877288400000,
@@ -384,8 +384,8 @@
     "Papildoma_informacija": "70MW SE; 33MW VE; 30MW EEKĮ. Leistina galia EEKĮ įkrovimui - 0MW",
     "Prijungimo_tasko_itampa_kV": 110
   },
-  "28767": {
-    "OBJECTID": 28767,
+  "28893": {
+    "OBJECTID": 28893,
     "Eil_Nr": 36,
     "Pasirašymo_data": 1656450000000,
     "Galiojimo_terminas": 1830204000000,
@@ -395,8 +395,8 @@
     "Papildoma_informacija": "",
     "Prijungimo_tasko_itampa_kV": 110
   },
-  "28768": {
-    "OBJECTID": 28768,
+  "28894": {
+    "OBJECTID": 28894,
     "Eil_Nr": 37,
     "Pasirašymo_data": 1657141200000,
     "Galiojimo_terminas": 1867528800000,
@@ -406,8 +406,8 @@
     "Papildoma_informacija": "200MW SE; 200MW EEKĮ",
     "Prijungimo_tasko_itampa_kV": 330
   },
-  "28769": {
-    "OBJECTID": 28769,
+  "28895": {
+    "OBJECTID": 28895,
     "Eil_Nr": 38,
     "Pasirašymo_data": 1657227600000,
     "Galiojimo_terminas": 1830204000000,
@@ -417,8 +417,8 @@
     "Papildoma_informacija": "200MW SE; 200MW VE; 50MW EEKĮ",
     "Prijungimo_tasko_itampa_kV": 330
   },
-  "28770": {
-    "OBJECTID": 28770,
+  "28896": {
+    "OBJECTID": 28896,
     "Eil_Nr": 39,
     "Pasirašymo_data": 1657573200000,
     "Galiojimo_terminas": 1881176400000,
@@ -428,8 +428,8 @@
     "Papildoma_informacija": "120MW SE; 120MW VE; 12MW EEKĮ",
     "Prijungimo_tasko_itampa_kV": 330
   },
-  "28771": {
-    "OBJECTID": 28771,
+  "28897": {
+    "OBJECTID": 28897,
     "Eil_Nr": 40,
     "Pasirašymo_data": 1657573200000,
     "Galiojimo_terminas": 1881176400000,
@@ -439,8 +439,8 @@
     "Papildoma_informacija": "80MW SE; 80MW VE; 8MW EEKĮ",
     "Prijungimo_tasko_itampa_kV": 330
   },
-  "28772": {
-    "OBJECTID": 28772,
+  "28898": {
+    "OBJECTID": 28898,
     "Eil_Nr": 41,
     "Pasirašymo_data": 1658696400000,
     "Galiojimo_terminas": 1789333200000,
@@ -450,8 +450,8 @@
     "Papildoma_informacija": "80MW SE; 16MW EEKĮ; 80MW VE prijungta",
     "Prijungimo_tasko_itampa_kV": 330
   },
-  "28773": {
-    "OBJECTID": 28773,
+  "28899": {
+    "OBJECTID": 28899,
     "Eil_Nr": 42,
     "Pasirašymo_data": 1669759200000,
     "Galiojimo_terminas": 1799013600000,
@@ -461,8 +461,8 @@
     "Papildoma_informacija": "",
     "Prijungimo_tasko_itampa_kV": 330
   },
-  "28774": {
-    "OBJECTID": 28774,
+  "28900": {
+    "OBJECTID": 28900,
     "Eil_Nr": 43,
     "Pasirašymo_data": 1669759200000,
     "Galiojimo_terminas": 1801951200000,
@@ -472,8 +472,8 @@
     "Papildoma_informacija": "90MW SE; 18MW EEKĮ; 90MW VE prijungta",
     "Prijungimo_tasko_itampa_kV": 330
   },
-  "28775": {
-    "OBJECTID": 28775,
+  "28901": {
+    "OBJECTID": 28901,
     "Eil_Nr": 44,
     "Pasirašymo_data": 1673560800000,
     "Galiojimo_terminas": 1835992800000,
@@ -483,8 +483,8 @@
     "Papildoma_informacija": "",
     "Prijungimo_tasko_itampa_kV": 110
   },
-  "28776": {
-    "OBJECTID": 28776,
+  "28902": {
+    "OBJECTID": 28902,
     "Eil_Nr": 45,
     "Pasirašymo_data": 1675893600000,
     "Galiojimo_terminas": 1847221200000,
@@ -494,8 +494,8 @@
     "Papildoma_informacija": "100MW VE; 55MW SE",
     "Prijungimo_tasko_itampa_kV": 330
   },
-  "28777": {
-    "OBJECTID": 28777,
+  "28903": {
+    "OBJECTID": 28903,
     "Eil_Nr": 46,
     "Pasirašymo_data": 1679950800000,
     "Galiojimo_terminas": 1811797200000,
@@ -505,8 +505,8 @@
     "Papildoma_informacija": "",
     "Prijungimo_tasko_itampa_kV": 110
   },
-  "28778": {
-    "OBJECTID": 28778,
+  "28904": {
+    "OBJECTID": 28904,
     "Eil_Nr": 47,
     "Pasirašymo_data": 1684270800000,
     "Galiojimo_terminas": 1890684000000,
@@ -516,8 +516,8 @@
     "Papildoma_informacija": "",
     "Prijungimo_tasko_itampa_kV": 330
   },
-  "28779": {
-    "OBJECTID": 28779,
+  "28905": {
+    "OBJECTID": 28905,
     "Eil_Nr": 48,
     "Pasirašymo_data": 1690232400000,
     "Galiojimo_terminas": 1798149600000,
@@ -527,8 +527,8 @@
     "Papildoma_informacija": "18MW VE; 15MW SE; 1,8MW EEKĮ",
     "Prijungimo_tasko_itampa_kV": 110
   },
-  "28780": {
-    "OBJECTID": 28780,
+  "28906": {
+    "OBJECTID": 28906,
     "Eil_Nr": 49,
     "Pasirašymo_data": 1691442000000,
     "Galiojimo_terminas": 1822597200000,
@@ -538,8 +538,8 @@
     "Papildoma_informacija": "34MW SE; 15MW VE; 15MW EEKĮ. Leistina galia EEKĮ įkrovimui - 14MW",
     "Prijungimo_tasko_itampa_kV": 110
   },
-  "28781": {
-    "OBJECTID": 28781,
+  "28907": {
+    "OBJECTID": 28907,
     "Eil_Nr": 50,
     "Pasirašymo_data": 1691442000000,
     "Galiojimo_terminas": 1823288400000,
@@ -549,8 +549,8 @@
     "Papildoma_informacija": "15MW VE; 12MW EEKĮ",
     "Prijungimo_tasko_itampa_kV": 110
   },
-  "28782": {
-    "OBJECTID": 28782,
+  "28908": {
+    "OBJECTID": 28908,
     "Eil_Nr": 51,
     "Pasirašymo_data": 1692133200000,
     "Galiojimo_terminas": 1824152400000,
@@ -560,8 +560,8 @@
     "Papildoma_informacija": "40MW VE; 4MW EEKĮ",
     "Prijungimo_tasko_itampa_kV": 110
   },
-  "28783": {
-    "OBJECTID": 28783,
+  "28909": {
+    "OBJECTID": 28909,
     "Eil_Nr": 52,
     "Pasirašymo_data": 1694034000000,
     "Galiojimo_terminas": 1788728400000,
@@ -571,8 +571,8 @@
     "Papildoma_informacija": "60MW VE; 32MW SE; 12MW EEKĮ",
     "Prijungimo_tasko_itampa_kV": 330
   },
-  "28784": {
-    "OBJECTID": 28784,
+  "28910": {
+    "OBJECTID": 28910,
     "Eil_Nr": 53,
     "Pasirašymo_data": 1694379600000,
     "Galiojimo_terminas": 1825538400000,
@@ -582,8 +582,8 @@
     "Papildoma_informacija": "40MW VE; 4MW EEKĮ",
     "Prijungimo_tasko_itampa_kV": 110
   },
-  "28785": {
-    "OBJECTID": 28785,
+  "28911": {
+    "OBJECTID": 28911,
     "Eil_Nr": 54,
     "Pasirašymo_data": 1698354000000,
     "Galiojimo_terminas": 1829080800000,
@@ -593,8 +593,8 @@
     "Papildoma_informacija": "42MW SE; 15MW VE; 17MW EEKĮ",
     "Prijungimo_tasko_itampa_kV": 110
   },
-  "28786": {
-    "OBJECTID": 28786,
+  "28912": {
+    "OBJECTID": 28912,
     "Eil_Nr": 55,
     "Pasirašymo_data": 1698703200000,
     "Galiojimo_terminas": 1828994400000,
@@ -604,8 +604,8 @@
     "Papildoma_informacija": "20MW VE; 8MW EEKĮ",
     "Prijungimo_tasko_itampa_kV": 110
   },
-  "28787": {
-    "OBJECTID": 28787,
+  "28913": {
+    "OBJECTID": 28913,
     "Eil_Nr": 56,
     "Pasirašymo_data": 1698703200000,
     "Galiojimo_terminas": 1831154400000,
@@ -615,8 +615,8 @@
     "Papildoma_informacija": "24MW VE; 6MW SE; 2,4MW EEKĮ",
     "Prijungimo_tasko_itampa_kV": 110
   },
-  "28788": {
-    "OBJECTID": 28788,
+  "28914": {
+    "OBJECTID": 28914,
     "Eil_Nr": 57,
     "Pasirašymo_data": 1698876000000,
     "Galiojimo_terminas": 1827698400000,
@@ -626,8 +626,8 @@
     "Papildoma_informacija": "110MW VE; 22MW EEKĮ",
     "Prijungimo_tasko_itampa_kV": 330
   },
-  "28789": {
-    "OBJECTID": 28789,
+  "28915": {
+    "OBJECTID": 28915,
     "Eil_Nr": 58,
     "Pasirašymo_data": 1698962400000,
     "Galiojimo_terminas": 1829858400000,
@@ -637,8 +637,8 @@
     "Papildoma_informacija": "100MW SE; 20MW EEKĮ",
     "Prijungimo_tasko_itampa_kV": 330
   },
-  "28790": {
-    "OBJECTID": 28790,
+  "28916": {
+    "OBJECTID": 28916,
     "Eil_Nr": 59,
     "Pasirašymo_data": 1698962400000,
     "Galiojimo_terminas": 1830808800000,
@@ -648,8 +648,8 @@
     "Papildoma_informacija": "45MW VE; 9MW EEKĮ",
     "Prijungimo_tasko_itampa_kV": 110
   },
-  "28791": {
-    "OBJECTID": 28791,
+  "28917": {
+    "OBJECTID": 28917,
     "Eil_Nr": 60,
     "Pasirašymo_data": 1708639200000,
     "Galiojimo_terminas": 1803247200000,
@@ -659,8 +659,8 @@
     "Papildoma_informacija": "13,8MW VE; 2,76MW EEKĮ",
     "Prijungimo_tasko_itampa_kV": 110
   },
-  "28792": {
-    "OBJECTID": 28792,
+  "28918": {
+    "OBJECTID": 28918,
     "Eil_Nr": 61,
     "Pasirašymo_data": 1713387600000,
     "Galiojimo_terminas": 1844888400000,
@@ -670,8 +670,8 @@
     "Papildoma_informacija": "",
     "Prijungimo_tasko_itampa_kV": 110
   },
-  "28793": {
-    "OBJECTID": 28793,
+  "28919": {
+    "OBJECTID": 28919,
     "Eil_Nr": 62,
     "Pasirašymo_data": 1713474000000,
     "Galiojimo_terminas": 1850245200000,
@@ -681,8 +681,8 @@
     "Papildoma_informacija": "",
     "Prijungimo_tasko_itampa_kV": 330
   },
-  "28794": {
-    "OBJECTID": 28794,
+  "28920": {
+    "OBJECTID": 28920,
     "Eil_Nr": 63,
     "Pasirašymo_data": 1713474000000,
     "Galiojimo_terminas": 1871240400000,
@@ -692,8 +692,8 @@
     "Papildoma_informacija": "36MW VE; 7,6MW EEKĮ",
     "Prijungimo_tasko_itampa_kV": 110
   },
-  "28795": {
-    "OBJECTID": 28795,
+  "28921": {
+    "OBJECTID": 28921,
     "Eil_Nr": 64,
     "Pasirašymo_data": 1713992400000,
     "Galiojimo_terminas": 1840222800000,
@@ -703,8 +703,8 @@
     "Papildoma_informacija": "176MW VE; 60MW SE; 20MW EEKĮ",
     "Prijungimo_tasko_itampa_kV": 330
   },
-  "28796": {
-    "OBJECTID": 28796,
+  "28922": {
+    "OBJECTID": 28922,
     "Eil_Nr": 65,
     "Pasirašymo_data": 1714424400000,
     "Galiojimo_terminas": 1845925200000,
@@ -714,8 +714,8 @@
     "Papildoma_informacija": "144MW VE; 36MW SE",
     "Prijungimo_tasko_itampa_kV": 330
   },
-  "28797": {
-    "OBJECTID": 28797,
+  "28923": {
+    "OBJECTID": 28923,
     "Eil_Nr": 66,
     "Pasirašymo_data": 1716843600000,
     "Galiojimo_terminas": 1853701200000,
@@ -725,8 +725,8 @@
     "Papildoma_informacija": "",
     "Prijungimo_tasko_itampa_kV": 110
   },
-  "28798": {
-    "OBJECTID": 28798,
+  "28924": {
+    "OBJECTID": 28924,
     "Eil_Nr": 67,
     "Pasirašymo_data": 1721250000000,
     "Galiojimo_terminas": 1826488800000,
@@ -736,8 +736,8 @@
     "Papildoma_informacija": "",
     "Prijungimo_tasko_itampa_kV": 110
   },
-  "28799": {
-    "OBJECTID": 28799,
+  "28925": {
+    "OBJECTID": 28925,
     "Eil_Nr": 68,
     "Pasirašymo_data": 1723582800000,
     "Galiojimo_terminas": 1865714400000,
@@ -747,8 +747,8 @@
     "Papildoma_informacija": "",
     "Prijungimo_tasko_itampa_kV": 110
   },
-  "28800": {
-    "OBJECTID": 28800,
+  "28926": {
+    "OBJECTID": 28926,
     "Eil_Nr": 69,
     "Pasirašymo_data": 1724965200000,
     "Galiojimo_terminas": 1882731600000,
@@ -758,8 +758,8 @@
     "Papildoma_informacija": "40MW SE; 13MW EEKĮ",
     "Prijungimo_tasko_itampa_kV": 110
   },
-  "28801": {
-    "OBJECTID": 28801,
+  "28927": {
+    "OBJECTID": 28927,
     "Eil_Nr": 70,
     "Pasirašymo_data": 1725224400000,
     "Galiojimo_terminas": 1859320800000,
@@ -769,8 +769,8 @@
     "Papildoma_informacija": "",
     "Prijungimo_tasko_itampa_kV": 110
   },
-  "28802": {
-    "OBJECTID": 28802,
+  "28928": {
+    "OBJECTID": 28928,
     "Eil_Nr": 71,
     "Pasirašymo_data": 1733349600000,
     "Galiojimo_terminas": 1870030800000,
@@ -780,8 +780,8 @@
     "Papildoma_informacija": "",
     "Prijungimo_tasko_itampa_kV": 330
   },
-  "28803": {
-    "OBJECTID": 28803,
+  "28929": {
+    "OBJECTID": 28929,
     "Eil_Nr": 72,
     "Pasirašymo_data": 1733781600000,
     "Galiojimo_terminas": 1833746400000,
@@ -791,8 +791,8 @@
     "Papildoma_informacija": "",
     "Prijungimo_tasko_itampa_kV": 110
   },
-  "28804": {
-    "OBJECTID": 28804,
+  "28930": {
+    "OBJECTID": 28930,
     "Eil_Nr": 73,
     "Pasirašymo_data": 1736719200000,
     "Galiojimo_terminas": 1868047200000,
@@ -802,8 +802,8 @@
     "Papildoma_informacija": "",
     "Prijungimo_tasko_itampa_kV": 110
   },
-  "28805": {
-    "OBJECTID": 28805,
+  "28931": {
+    "OBJECTID": 28931,
     "Eil_Nr": 74,
     "Pasirašymo_data": 1737583200000,
     "Galiojimo_terminas": 1868911200000,
@@ -813,8 +813,8 @@
     "Papildoma_informacija": "",
     "Prijungimo_tasko_itampa_kV": 110
   },
-  "28806": {
-    "OBJECTID": 28806,
+  "28932": {
+    "OBJECTID": 28932,
     "Eil_Nr": 75,
     "Pasirašymo_data": 1737583200000,
     "Galiojimo_terminas": 1868911200000,
@@ -824,8 +824,8 @@
     "Papildoma_informacija": "",
     "Prijungimo_tasko_itampa_kV": 110
   },
-  "28807": {
-    "OBJECTID": 28807,
+  "28933": {
+    "OBJECTID": 28933,
     "Eil_Nr": 76,
     "Pasirašymo_data": 1737583200000,
     "Galiojimo_terminas": 1868911200000,
@@ -835,8 +835,8 @@
     "Papildoma_informacija": "",
     "Prijungimo_tasko_itampa_kV": 110
   },
-  "28808": {
-    "OBJECTID": 28808,
+  "28934": {
+    "OBJECTID": 28934,
     "Eil_Nr": 77,
     "Pasirašymo_data": 1737928800000,
     "Galiojimo_terminas": 1877202000000,
@@ -846,8 +846,8 @@
     "Papildoma_informacija": "",
     "Prijungimo_tasko_itampa_kV": 330
   },
-  "28809": {
-    "OBJECTID": 28809,
+  "28935": {
+    "OBJECTID": 28935,
     "Eil_Nr": 78,
     "Pasirašymo_data": 1738015200000,
     "Galiojimo_terminas": 1869339600000,
@@ -857,8 +857,8 @@
     "Papildoma_informacija": "",
     "Prijungimo_tasko_itampa_kV": 110
   },
-  "28810": {
-    "OBJECTID": 28810,
+  "28936": {
+    "OBJECTID": 28936,
     "Eil_Nr": 79,
     "Pasirašymo_data": 1738015200000,
     "Galiojimo_terminas": 1879880400000,
@@ -868,8 +868,8 @@
     "Papildoma_informacija": "106,4MW VE; 57,5MW SE; 46MW EEKĮ",
     "Prijungimo_tasko_itampa_kV": 330
   },
-  "28811": {
-    "OBJECTID": 28811,
+  "28937": {
+    "OBJECTID": 28937,
     "Eil_Nr": 80,
     "Pasirašymo_data": 1738015200000,
     "Galiojimo_terminas": 1869339600000,
@@ -879,8 +879,8 @@
     "Papildoma_informacija": "",
     "Prijungimo_tasko_itampa_kV": 110
   },
-  "28812": {
-    "OBJECTID": 28812,
+  "28938": {
+    "OBJECTID": 28938,
     "Eil_Nr": 81,
     "Pasirašymo_data": 1738015200000,
     "Galiojimo_terminas": 1895781600000,
@@ -890,8 +890,8 @@
     "Papildoma_informacija": "45MW VE; 40MW EEKĮ",
     "Prijungimo_tasko_itampa_kV": 110
   },
-  "28813": {
-    "OBJECTID": 28813,
+  "28939": {
+    "OBJECTID": 28939,
     "Eil_Nr": 82,
     "Pasirašymo_data": 1738101600000,
     "Galiojimo_terminas": 1869426000000,
@@ -901,8 +901,8 @@
     "Papildoma_informacija": "",
     "Prijungimo_tasko_itampa_kV": 110
   },
-  "28814": {
-    "OBJECTID": 28814,
+  "28940": {
+    "OBJECTID": 28940,
     "Eil_Nr": 83,
     "Pasirašymo_data": 1740952800000,
     "Galiojimo_terminas": 1896300000000,
@@ -912,8 +912,8 @@
     "Papildoma_informacija": "",
     "Prijungimo_tasko_itampa_kV": 330
   },
-  "28815": {
-    "OBJECTID": 28815,
+  "28941": {
+    "OBJECTID": 28941,
     "Eil_Nr": 84,
     "Pasirašymo_data": 1741039200000,
     "Galiojimo_terminas": 1875214800000,
@@ -923,8 +923,8 @@
     "Papildoma_informacija": "",
     "Prijungimo_tasko_itampa_kV": 110
   },
-  "28816": {
-    "OBJECTID": 28816,
+  "28942": {
+    "OBJECTID": 28942,
     "Eil_Nr": 85,
     "Pasirašymo_data": 1741730400000,
     "Galiojimo_terminas": 1873227600000,
@@ -934,8 +934,8 @@
     "Papildoma_informacija": "200MW VE; 50MW SE; 20MW EEKĮ",
     "Prijungimo_tasko_itampa_kV": 330
   },
-  "28817": {
-    "OBJECTID": 28817,
+  "28943": {
+    "OBJECTID": 28943,
     "Eil_Nr": 86,
     "Pasirašymo_data": 1743112800000,
     "Galiojimo_terminas": 1874610000000,
@@ -945,8 +945,8 @@
     "Papildoma_informacija": "",
     "Prijungimo_tasko_itampa_kV": 110
   },
-  "28818": {
-    "OBJECTID": 28818,
+  "28944": {
+    "OBJECTID": 28944,
     "Eil_Nr": 87,
     "Pasirašymo_data": 1743627600000,
     "Galiojimo_terminas": 1875128400000,
@@ -956,8 +956,8 @@
     "Papildoma_informacija": "Prijungiama nauja 4,8MW galios katilinė",
     "Prijungimo_tasko_itampa_kV": 110
   },
-  "28819": {
-    "OBJECTID": 28819,
+  "28945": {
+    "OBJECTID": 28945,
     "Eil_Nr": 88,
     "Pasirašymo_data": 1744837200000,
     "Galiojimo_terminas": 1878930000000,
@@ -967,8 +967,8 @@
     "Papildoma_informacija": "",
     "Prijungimo_tasko_itampa_kV": 110
   },
-  "28820": {
-    "OBJECTID": 28820,
+  "28946": {
+    "OBJECTID": 28946,
     "Eil_Nr": 89,
     "Pasirašymo_data": 1744923600000,
     "Galiojimo_terminas": 1876424400000,
@@ -978,8 +978,8 @@
     "Papildoma_informacija": "",
     "Prijungimo_tasko_itampa_kV": 110
   },
-  "28821": {
-    "OBJECTID": 28821,
+  "28947": {
+    "OBJECTID": 28947,
     "Eil_Nr": 90,
     "Pasirašymo_data": 1744923600000,
     "Galiojimo_terminas": 1876424400000,
@@ -989,8 +989,8 @@
     "Papildoma_informacija": "",
     "Prijungimo_tasko_itampa_kV": 110
   },
-  "28822": {
-    "OBJECTID": 28822,
+  "28948": {
+    "OBJECTID": 28948,
     "Eil_Nr": 91,
     "Pasirašymo_data": 1745442000000,
     "Galiojimo_terminas": 1887483600000,
@@ -1000,8 +1000,8 @@
     "Papildoma_informacija": "",
     "Prijungimo_tasko_itampa_kV": 110
   },
-  "28823": {
-    "OBJECTID": 28823,
+  "28949": {
+    "OBJECTID": 28949,
     "Eil_Nr": 92,
     "Pasirašymo_data": 1745528400000,
     "Galiojimo_terminas": 1877029200000,
@@ -1011,8 +1011,8 @@
     "Papildoma_informacija": "",
     "Prijungimo_tasko_itampa_kV": 110
   },
-  "28824": {
-    "OBJECTID": 28824,
+  "28950": {
+    "OBJECTID": 28950,
     "Eil_Nr": 93,
     "Pasirašymo_data": 1745787600000,
     "Galiojimo_terminas": 1877288400000,
@@ -1022,8 +1022,8 @@
     "Papildoma_informacija": "",
     "Prijungimo_tasko_itampa_kV": 110
   },
-  "28825": {
-    "OBJECTID": 28825,
+  "28951": {
+    "OBJECTID": 28951,
     "Eil_Nr": 94,
     "Pasirašymo_data": 1750021200000,
     "Galiojimo_terminas": 1881522000000,
@@ -1033,8 +1033,8 @@
     "Papildoma_informacija": "",
     "Prijungimo_tasko_itampa_kV": 110
   },
-  "28826": {
-    "OBJECTID": 28826,
+  "28952": {
+    "OBJECTID": 28952,
     "Eil_Nr": 95,
     "Pasirašymo_data": 1750107600000,
     "Galiojimo_terminas": 1881608400000,
@@ -1044,8 +1044,8 @@
     "Papildoma_informacija": "210MW VE; 60MW SE; 21MW EEKĮ",
     "Prijungimo_tasko_itampa_kV": 330
   },
-  "28827": {
-    "OBJECTID": 28827,
+  "28953": {
+    "OBJECTID": 28953,
     "Eil_Nr": 96,
     "Pasirašymo_data": 1750107600000,
     "Galiojimo_terminas": 1881608400000,
@@ -1055,8 +1055,8 @@
     "Papildoma_informacija": "59,203MW VE; 12MW EEKĮ",
     "Prijungimo_tasko_itampa_kV": 110
   },
-  "28828": {
-    "OBJECTID": 28828,
+  "28954": {
+    "OBJECTID": 28954,
     "Eil_Nr": 97,
     "Pasirašymo_data": 1751403600000,
     "Galiojimo_terminas": 1882990800000,
@@ -1066,8 +1066,8 @@
     "Papildoma_informacija": "",
     "Prijungimo_tasko_itampa_kV": 110
   },
-  "28829": {
-    "OBJECTID": 28829,
+  "28955": {
+    "OBJECTID": 28955,
     "Eil_Nr": 98,
     "Pasirašymo_data": 1751490000000,
     "Galiojimo_terminas": 1883077200000,
@@ -1077,8 +1077,8 @@
     "Papildoma_informacija": "",
     "Prijungimo_tasko_itampa_kV": 110
   },
-  "28830": {
-    "OBJECTID": 28830,
+  "28956": {
+    "OBJECTID": 28956,
     "Eil_Nr": 99,
     "Pasirašymo_data": 1751490000000,
     "Galiojimo_terminas": 1877720400000,
@@ -1088,8 +1088,8 @@
     "Papildoma_informacija": "Rezervuota prijungimo sąlygomis.\nJungiama prie veikiančios kogeneracinės elektrinės kurios leistina generuoti galia 0,947MW",
     "Prijungimo_tasko_itampa_kV": 110
   },
-  "28831": {
-    "OBJECTID": 28831,
+  "28957": {
+    "OBJECTID": 28957,
     "Eil_Nr": 100,
     "Pasirašymo_data": 1752613200000,
     "Galiojimo_terminas": 1884200400000,
@@ -1099,8 +1099,8 @@
     "Papildoma_informacija": "",
     "Prijungimo_tasko_itampa_kV": 110
   },
-  "28832": {
-    "OBJECTID": 28832,
+  "28958": {
+    "OBJECTID": 28958,
     "Eil_Nr": 101,
     "Pasirašymo_data": 1761775200000,
     "Galiojimo_terminas": 1893276000000,
@@ -1110,8 +1110,8 @@
     "Papildoma_informacija": "150MW VE; 30MW EEKĮ",
     "Prijungimo_tasko_itampa_kV": 330
   },
-  "28833": {
-    "OBJECTID": 28833,
+  "28959": {
+    "OBJECTID": 28959,
     "Eil_Nr": 102,
     "Pasirašymo_data": 1762466400000,
     "Galiojimo_terminas": 1893967200000,
@@ -1121,8 +1121,8 @@
     "Papildoma_informacija": "",
     "Prijungimo_tasko_itampa_kV": 110
   },
-  "28834": {
-    "OBJECTID": 28834,
+  "28960": {
+    "OBJECTID": 28960,
     "Eil_Nr": 103,
     "Pasirašymo_data": 1765231200000,
     "Galiojimo_terminas": 1896818400000,
@@ -1132,8 +1132,8 @@
     "Papildoma_informacija": "",
     "Prijungimo_tasko_itampa_kV": 110
   },
-  "28835": {
-    "OBJECTID": 28835,
+  "28961": {
+    "OBJECTID": 28961,
     "Eil_Nr": 104,
     "Pasirašymo_data": 1765231200000,
     "Galiojimo_terminas": 1896818400000,
@@ -1143,8 +1143,8 @@
     "Papildoma_informacija": "",
     "Prijungimo_tasko_itampa_kV": 330
   },
-  "28836": {
-    "OBJECTID": 28836,
+  "28962": {
+    "OBJECTID": 28962,
     "Eil_Nr": 105,
     "Pasirašymo_data": 1769119200000,
     "Galiojimo_terminas": 1899756000000,
@@ -1154,8 +1154,8 @@
     "Papildoma_informacija": "Prijungta 19,995MW SE; Nauja 6MW EEKĮ",
     "Prijungimo_tasko_itampa_kV": 110
   },
-  "28837": {
-    "OBJECTID": 28837,
+  "28963": {
+    "OBJECTID": 28963,
     "Eil_Nr": 106,
     "Pasirašymo_data": 1772748000000,
     "Galiojimo_terminas": 1904245200000,
@@ -1165,8 +1165,8 @@
     "Papildoma_informacija": "",
     "Prijungimo_tasko_itampa_kV": 110
   },
-  "28838": {
-    "OBJECTID": 28838,
+  "28964": {
+    "OBJECTID": 28964,
     "Eil_Nr": 107,
     "Pasirašymo_data": 1774303200000,
     "Galiojimo_terminas": 1905800400000,
@@ -1176,8 +1176,8 @@
     "Papildoma_informacija": "",
     "Prijungimo_tasko_itampa_kV": 330
   },
-  "28839": {
-    "OBJECTID": 28839,
+  "28965": {
+    "OBJECTID": 28965,
     "Eil_Nr": 108,
     "Pasirašymo_data": -2208988800000,
     "Galiojimo_terminas": -2208988800000,
@@ -1187,8 +1187,8 @@
     "Papildoma_informacija": "Laikina rezervacija. Sąlygos su plėtra. 152MW SE; 152MW VE; 15,2MW EEKĮ",
     "Prijungimo_tasko_itampa_kV": 330
   },
-  "28840": {
-    "OBJECTID": 28840,
+  "28966": {
+    "OBJECTID": 28966,
     "Eil_Nr": 109,
     "Pasirašymo_data": -2208988800000,
     "Galiojimo_terminas": -2208988800000,
@@ -1198,8 +1198,8 @@
     "Papildoma_informacija": "KP 43MW EEKĮ;\nLaikina rezervacija 23MW EEKĮ",
     "Prijungimo_tasko_itampa_kV": 110
   },
-  "28841": {
-    "OBJECTID": 28841,
+  "28967": {
+    "OBJECTID": 28967,
     "Eil_Nr": 110,
     "Pasirašymo_data": -2208988800000,
     "Galiojimo_terminas": -2208988800000,
@@ -1209,8 +1209,8 @@
     "Papildoma_informacija": "Laikina rezervacija. 224 MW VE; 57MW SE; 48MW EEKĮ",
     "Prijungimo_tasko_itampa_kV": 330
   },
-  "28842": {
-    "OBJECTID": 28842,
+  "28968": {
+    "OBJECTID": 28968,
     "Eil_Nr": 111,
     "Pasirašymo_data": -2208988800000,
     "Galiojimo_terminas": -2208988800000,
@@ -1220,8 +1220,8 @@
     "Papildoma_informacija": "Laikina rezervacija",
     "Prijungimo_tasko_itampa_kV": 110
   },
-  "28843": {
-    "OBJECTID": 28843,
+  "28969": {
+    "OBJECTID": 28969,
     "Eil_Nr": 112,
     "Pasirašymo_data": -2208988800000,
     "Galiojimo_terminas": -2208988800000,
@@ -1231,8 +1231,8 @@
     "Papildoma_informacija": "Laikina rezervacija",
     "Prijungimo_tasko_itampa_kV": 110
   },
-  "28844": {
-    "OBJECTID": 28844,
+  "28970": {
+    "OBJECTID": 28970,
     "Eil_Nr": 113,
     "Pasirašymo_data": -2208988800000,
     "Galiojimo_terminas": -2208988800000,
@@ -1242,8 +1242,8 @@
     "Papildoma_informacija": "210MW VE; 60MW SE; 21MW EEKĮ.\nLaikina rezervacija 79MW EEKĮ",
     "Prijungimo_tasko_itampa_kV": 330
   },
-  "28845": {
-    "OBJECTID": 28845,
+  "28971": {
+    "OBJECTID": 28971,
     "Eil_Nr": 114,
     "Pasirašymo_data": -2208988800000,
     "Galiojimo_terminas": -2208988800000,
@@ -1253,8 +1253,8 @@
     "Papildoma_informacija": "Laikina rezervacija",
     "Prijungimo_tasko_itampa_kV": 330
   },
-  "28846": {
-    "OBJECTID": 28846,
+  "28972": {
+    "OBJECTID": 28972,
     "Eil_Nr": 115,
     "Pasirašymo_data": -2208988800000,
     "Galiojimo_terminas": -2208988800000,
@@ -1264,8 +1264,8 @@
     "Papildoma_informacija": "Laikina rezervacija",
     "Prijungimo_tasko_itampa_kV": 330
   },
-  "28847": {
-    "OBJECTID": 28847,
+  "28973": {
+    "OBJECTID": 28973,
     "Eil_Nr": 116,
     "Pasirašymo_data": -2208988800000,
     "Galiojimo_terminas": -2208988800000,
@@ -1275,8 +1275,8 @@
     "Papildoma_informacija": "Laikina rezervacija",
     "Prijungimo_tasko_itampa_kV": 330
   },
-  "28848": {
-    "OBJECTID": 28848,
+  "28974": {
+    "OBJECTID": 28974,
     "Eil_Nr": 117,
     "Pasirašymo_data": -2208988800000,
     "Galiojimo_terminas": -2208988800000,
@@ -1286,8 +1286,8 @@
     "Papildoma_informacija": "Laikina rezervacija",
     "Prijungimo_tasko_itampa_kV": 330
   },
-  "28849": {
-    "OBJECTID": 28849,
+  "28975": {
+    "OBJECTID": 28975,
     "Eil_Nr": 118,
     "Pasirašymo_data": -2208988800000,
     "Galiojimo_terminas": -2208988800000,
@@ -1297,8 +1297,8 @@
     "Papildoma_informacija": "Laikina rezervacija",
     "Prijungimo_tasko_itampa_kV": 330
   },
-  "28850": {
-    "OBJECTID": 28850,
+  "28976": {
+    "OBJECTID": 28976,
     "Eil_Nr": 119,
     "Pasirašymo_data": -2208988800000,
     "Galiojimo_terminas": -2208988800000,
@@ -1308,8 +1308,8 @@
     "Papildoma_informacija": "Laikina rezervacija",
     "Prijungimo_tasko_itampa_kV": 110
   },
-  "28851": {
-    "OBJECTID": 28851,
+  "28977": {
+    "OBJECTID": 28977,
     "Eil_Nr": 120,
     "Pasirašymo_data": -2208988800000,
     "Galiojimo_terminas": -2208988800000,
@@ -1319,8 +1319,8 @@
     "Papildoma_informacija": "Laikina rezervacija",
     "Prijungimo_tasko_itampa_kV": 330
   },
-  "28852": {
-    "OBJECTID": 28852,
+  "28978": {
+    "OBJECTID": 28978,
     "Eil_Nr": 121,
     "Pasirašymo_data": -2208988800000,
     "Galiojimo_terminas": -2208988800000,
@@ -1330,8 +1330,8 @@
     "Papildoma_informacija": "200MW VE; 50MW SE; 20MW EEKĮ\nLaikina rezervacija 91MW EEKĮ",
     "Prijungimo_tasko_itampa_kV": 330
   },
-  "28853": {
-    "OBJECTID": 28853,
+  "28979": {
+    "OBJECTID": 28979,
     "Eil_Nr": 122,
     "Pasirašymo_data": -2208988800000,
     "Galiojimo_terminas": -2208988800000,
@@ -1341,8 +1341,8 @@
     "Papildoma_informacija": "Laikina rezervacija",
     "Prijungimo_tasko_itampa_kV": 330
   },
-  "28854": {
-    "OBJECTID": 28854,
+  "28980": {
+    "OBJECTID": 28980,
     "Eil_Nr": 123,
     "Pasirašymo_data": -2208988800000,
     "Galiojimo_terminas": -2208988800000,
@@ -1352,8 +1352,8 @@
     "Papildoma_informacija": "Laikina rezervacija",
     "Prijungimo_tasko_itampa_kV": 110
   },
-  "28855": {
-    "OBJECTID": 28855,
+  "28981": {
+    "OBJECTID": 28981,
     "Eil_Nr": 124,
     "Pasirašymo_data": -2208988800000,
     "Galiojimo_terminas": -2208988800000,
@@ -1363,8 +1363,8 @@
     "Papildoma_informacija": "500MW EEKĮ;\nLaikina rezervacija 0,05MW SE",
     "Prijungimo_tasko_itampa_kV": 330
   },
-  "28856": {
-    "OBJECTID": 28856,
+  "28982": {
+    "OBJECTID": 28982,
     "Eil_Nr": 125,
     "Pasirašymo_data": -2208988800000,
     "Galiojimo_terminas": -2208988800000,
@@ -1374,8 +1374,8 @@
     "Papildoma_informacija": "Laikina rezervacija",
     "Prijungimo_tasko_itampa_kV": 110
   },
-  "28857": {
-    "OBJECTID": 28857,
+  "28983": {
+    "OBJECTID": 28983,
     "Eil_Nr": 126,
     "Pasirašymo_data": -2208988800000,
     "Galiojimo_terminas": -2208988800000,
