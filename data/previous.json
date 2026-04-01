@@ -182,18 +182,18 @@
     "Papildoma_informacija": null
   },
   "13": {
-    "Laisva_prijungimo_galia_VE": 67,
-    "Laisva_prijungimo_galia_SE": 0,
-    "Rezer_ESO_tinklo_galia_VE": 0,
-    "Rezer_ESO_tinklo_galia_SE": 60,
-    "Rezer_VE_tinklo_galia_LIT_ESO": 3,
+    "Laisva_prijungimo_galia_VE": 50,
+    "Laisva_prijungimo_galia_SE": 10,
+    "Rezer_ESO_tinklo_galia_VE": 2,
+    "Rezer_ESO_tinklo_galia_SE": 69,
+    "Rezer_VE_tinklo_galia_LIT_ESO": 0,
     "Rezer_SE_tinklo_galia_LIT_ESO": 10,
     "Zonos_pralaidumas": 70,
     "Laisva_galia_kaupikliams": 27,
     "Rezervuota_galia_kaupikliams": 15,
     "Atributas_12": 28,
     "Rez_prij_galia_LITGRID_kaup": null,
-    "Papildoma_informacija": "Šioje zonoje nėra laisvų pralaidumų EEKĮ krovimuisi"
+    "Papildoma_informacija": ""
   },
   "14": {
     "Laisva_prijungimo_galia_VE": 0,
