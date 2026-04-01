@@ -26,15 +26,14 @@ DATA_FILE = Path("data/previous.json")
 # ─── Litgrid ArcGIS API ────────────────────────────────────────────────────────
 API_URL = (
     "https://services-eu1.arcgis.com/NDrrY0T7kE7A7pU0/ArcGIS/rest/services"
-    "/ElektrosPerdavimasAEI/FeatureServer/2/query"
+    "/ElektrosPerdavimasAEI/FeatureServer/10/query"
 )
 
 def fetch_data() -> list[dict]:
     """Gauna visus įrašus iš Litgrid ArcGIS API."""
     params = {
-        "where": "1=1",
+        "where": "metai=2026",
         "outFields": "*",
-        "returnGeometry": "false",
         "f": "pjson",
     }
     resp = requests.get(API_URL, params=params, timeout=30)
