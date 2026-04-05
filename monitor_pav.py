@@ -38,6 +38,8 @@ COL_DATA         = "Paskelbimo data"
 COL_VIETA        = "PŪV vieta"
 
 SEARCH_KEYWORD   = "vėjo elektrinių"
+# Atsarginė paieška be diakritikų — veikia net jei enkodingo problema
+SEARCH_KEYWORD_ASCII = "vejo elektrini"
 
 
 # ─── Duomenų gavimas ──────────────────────────────────────────────────────────
@@ -45,8 +47,26 @@ def fetch_csv() -> list[dict]:
     """Parsisiunčia CSV iš Google Sheets ir grąžina eilučių sąrašą."""
     resp = requests.get(CSV_URL, timeout=30)
     resp.raise_for_status()
-    # Google Sheets grąžina UTF-8 su BOM arba be – tvarkome abu atvejus
-    content = resp.content.decode("utf-8-sig")
+
+    # Bandome enkodingus iš eilės kol tekstas atrodo teisingas
+    raw = resp.content
+    content = None
+    for enc in ("utf-8-sig", "utf-8", "windows-1257", "iso-8859-13", "cp1252"):
+        try:
+            decoded = raw.decode(enc)
+            # Patikriname ar lietuviški simboliai atpažinti teisingai
+            if "vėjo" in decoded.lower() or "ė" in decoded or "ž" in decoded or "ū" in decoded:
+                content = decoded
+                print(f"  Enkodingo aptikimas: {enc} ✓")
+                break
+            content = decoded  # Priimame net jei nerasta lietuviškų simbolių
+        except (UnicodeDecodeError, LookupError):
+            continue
+
+    if content is None:
+        content = raw.decode("utf-8-sig", errors="replace")
+        print("  Įspėjimas: nepavyko tiksliai nustatyti enkodingo, naudojamas UTF-8 su klaidų pakeitimu")
+
     reader = csv.DictReader(io.StringIO(content))
     rows = []
     for row in reader:
@@ -60,8 +80,8 @@ def find_wind_rows(rows: list[dict]) -> list[dict]:
     """Grąžina tik tas eilutes, kur PŪV pavadinimas turi 'vėjo elektrinių'."""
     result = []
     for row in rows:
-        pav = row.get(COL_PAVADINIMAS, "")
-        if SEARCH_KEYWORD.lower() in pav.lower():
+        pav = row.get(COL_PAVADINIMAS, "").lower()
+        if SEARCH_KEYWORD.lower() in pav or SEARCH_KEYWORD_ASCII in pav:
             result.append(row)
     return result
 
