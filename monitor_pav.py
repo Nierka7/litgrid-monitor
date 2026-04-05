@@ -32,14 +32,13 @@ GID       = "1337314935"
 CSV_URL   = f"https://docs.google.com/spreadsheets/d/{SHEET_ID}/export?format=csv&gid={GID}"
 
 # ─── Stulpelių pavadinimai (tiksliai kaip lentelėje) ─────────────────────────
-COL_PAVADINIMAS  = "PŪV pavadinimas"
+COL_PAVADINIMAS    = "PŪV pavadinimas"
 COL_ORGANIZATORIUS = "PŪV organizatorius"
-COL_DATA         = "Paskelbimo data"
-COL_VIETA        = "PŪV vieta"
+COL_DATA           = "Paskelbimo data"
+COL_VIETA          = "PŪV vieta"
 
-SEARCH_KEYWORD   = "vėjo elektrinių"
-# Atsarginė paieška be diakritikų — veikia net jei enkodingo problema
-SEARCH_KEYWORD_ASCII = "vejo elektrini"
+SEARCH_KEYWORD       = "vėjo elektrinių"
+SEARCH_KEYWORD_ASCII = "vejo elektrini"  # atsarginė paieška be diakritikų
 
 
 # ─── Duomenų gavimas ──────────────────────────────────────────────────────────
@@ -48,30 +47,29 @@ def fetch_csv() -> list[dict]:
     resp = requests.get(CSV_URL, timeout=30)
     resp.raise_for_status()
 
-    # Bandome enkodingus iš eilės kol tekstas atrodo teisingas
     raw = resp.content
+
+    # Bandome enkodingus iš eilės — priimame pirmą kuris turi lietuviškus simbolius
     content = None
     for enc in ("utf-8-sig", "utf-8", "windows-1257", "iso-8859-13", "cp1252"):
         try:
             decoded = raw.decode(enc)
-            # Patikriname ar lietuviški simboliai atpažinti teisingai
-            if "vėjo" in decoded.lower() or "ė" in decoded or "ž" in decoded or "ū" in decoded:
+            if any(c in decoded for c in ("ė", "ž", "ū", "ą", "š", "į", "č")):
                 content = decoded
                 print(f"  Enkodingo aptikimas: {enc} ✓")
                 break
-            content = decoded  # Priimame net jei nerasta lietuviškų simbolių
+            content = decoded  # išsaugome kaip atsarginį variantą
         except (UnicodeDecodeError, LookupError):
             continue
 
     if content is None:
-        content = raw.decode("utf-8-sig", errors="replace")
-        print("  Įspėjimas: nepavyko tiksliai nustatyti enkodingo, naudojamas UTF-8 su klaidų pakeitimu")
+        content = raw.decode("utf-8", errors="replace")
+        print("  Įspėjimas: naudojamas UTF-8 su klaidų pakeitimu")
 
     reader = csv.DictReader(io.StringIO(content))
     rows = []
     for row in reader:
-        # Pašaliname tarpus iš stulpelių pavadinimų (kartais būna papildomi)
-        clean = {k.strip(): v.strip() for k, v in row.items() if k}
+        clean = {k.strip(): v.strip() for k, v in row.items() if k and k.strip()}
         rows.append(clean)
     return rows
 
@@ -80,7 +78,12 @@ def find_wind_rows(rows: list[dict]) -> list[dict]:
     """Grąžina tik tas eilutes, kur PŪV pavadinimas turi 'vėjo elektrinių'."""
     result = []
     for row in rows:
-        pav = row.get(COL_PAVADINIMAS, "").lower()
+        # Ieškome stulpelio pagal dalinį pavadinimą (apsauga nuo enkodingo)
+        pav = ""
+        for key in row:
+            if "pavadinimas" in key.lower():
+                pav = row[key].lower()
+                break
         if SEARCH_KEYWORD.lower() in pav or SEARCH_KEYWORD_ASCII in pav:
             result.append(row)
     return result
@@ -88,35 +91,70 @@ def find_wind_rows(rows: list[dict]) -> list[dict]:
 
 # ─── Atminties failas ─────────────────────────────────────────────────────────
 def make_key(row: dict) -> str:
-    """
-    Unikalus raktas eilutei – derinys iš pavadinimo + datos.
-    Jei data tuščia, naudojame tik pavadinimą.
-    """
-    pav  = row.get(COL_PAVADINIMAS, "").strip()
+    """Unikalus raktas eilutei – pavadinimas + data."""
+    pav = row.get(COL_PAVADINIMAS, "").strip()
+    if not pav:
+        for key in row:
+            if "pavadinimas" in key.lower():
+                pav = row[key].strip()
+                break
     data = row.get(COL_DATA, "").strip()
+    if not data:
+        for key in row:
+            if "data" in key.lower():
+                data = row[key].strip()
+                break
     return f"{pav}||{data}"
 
 
-def load_previous() -> dict:
-    if DATA_FILE.exists():
-        with open(DATA_FILE, encoding="utf-8") as f:
-            return json.load(f)
-    return {}
+def load_previous() -> tuple[dict, bool]:
+    """
+    Grąžina (duomenys, ar_failas_egzistavo).
+    Svarbu skirti: failas neegzistuoja (pirmas paleidimas) nuo tuščio failo.
+    """
+    if not DATA_FILE.exists():
+        return {}, False
+    with open(DATA_FILE, encoding="utf-8") as f:
+        data = json.load(f)
+    return data, True
 
 
 def save_snapshot(keys: list[str]):
     DATA_FILE.parent.mkdir(exist_ok=True)
-    snapshot = {k: True for k in keys}
+    # __initialized__ žymuo užtikrina kad failas niekada nebus tuščias
+    snapshot = {"__initialized__": True}
+    snapshot.update({k: True for k in keys})
     with open(DATA_FILE, "w", encoding="utf-8") as f:
         json.dump(snapshot, f, indent=2, ensure_ascii=False)
 
 
+# ─── Pagalbinė funkcija laukams gauti ────────────────────────────────────────
+def get_field(row: dict, col: str) -> str:
+    """Gauna lauko reikšmę, ieško ir pagal dalinį pavadinimą jei tikslaus nėra."""
+    val = row.get(col, "").strip()
+    if val:
+        return val
+    # Atsarginis variantas — ieškome pagal raktažodį stulpelio pavadinime
+    keywords = {
+        COL_PAVADINIMAS:    "pavadinimas",
+        COL_ORGANIZATORIUS: "organizatorius",
+        COL_DATA:           "data",
+        COL_VIETA:          "vieta",
+    }
+    kw = keywords.get(col, "").lower()
+    if kw:
+        for key in row:
+            if kw in key.lower():
+                return row[key].strip() or "–"
+    return "–"
+
+
 # ─── Pranešimų formatavimas ───────────────────────────────────────────────────
 def format_row_telegram(row: dict) -> str:
-    org   = row.get(COL_ORGANIZATORIUS, "–") or "–"
-    data  = row.get(COL_DATA, "–") or "–"
-    vieta = row.get(COL_VIETA, "–") or "–"
-    pav   = row.get(COL_PAVADINIMAS, "–") or "–"
+    pav   = get_field(row, COL_PAVADINIMAS)
+    org   = get_field(row, COL_ORGANIZATORIUS)
+    data  = get_field(row, COL_DATA)
+    vieta = get_field(row, COL_VIETA)
     return (
         f"<b>📋 {pav}</b>\n"
         f"  🏢 Organizatorius: {org}\n"
@@ -143,10 +181,10 @@ def build_telegram_message(new_rows: list[dict], date_str: str) -> str:
 def build_email_html(new_rows: list[dict], date_str: str) -> str:
     rows_html = ""
     for row in new_rows:
-        pav   = row.get(COL_PAVADINIMAS, "–") or "–"
-        org   = row.get(COL_ORGANIZATORIUS, "–") or "–"
-        data  = row.get(COL_DATA, "–") or "–"
-        vieta = row.get(COL_VIETA, "–") or "–"
+        pav   = get_field(row, COL_PAVADINIMAS)
+        org   = get_field(row, COL_ORGANIZATORIUS)
+        data  = get_field(row, COL_DATA)
+        vieta = get_field(row, COL_VIETA)
         rows_html += f"""
         <tr>
           <td style="padding:10px 14px;border-bottom:1px solid #eee;vertical-align:top;
@@ -219,20 +257,25 @@ def main():
         return
     print(f"  Iš viso eilučių: {len(rows)}")
 
+    # DEBUG — stulpelių pavadinimai (padeda diagnozuoti enkodingo problemas)
+    if rows:
+        print(f"  [DEBUG] Stulpeliai: {list(rows[0].keys())}")
+        print(f"  [DEBUG] 1 eilutė (pirmi 3 stulpeliai): { {k: v for k, v in list(rows[0].items())[:3]} }")
+
     wind_rows = find_wind_rows(rows)
     print(f"  Vėjo elektrinių įrašų: {len(wind_rows)}")
 
-    previous = load_previous()
+    previous, file_existed = load_previous()
+    first_run = not file_existed
 
-    if not previous:
-        # Pirmas paleidimas – išsaugome viską, pranešimų nesiųsti
+    if first_run:
         keys = [make_key(r) for r in wind_rows]
         save_snapshot(keys)
         print(f"\nPirmas paleidimas – išsaugota {len(keys)} vėjo elektrinių įrašų.")
         try:
             send_telegram(
                 f"🌬️ <b>PAV monitoringas paleistas</b>\n\n"
-                f"📊 Šiuo metu stebima: {len(wind_rows)} vėjo elektrinių projektų\n"
+                f"📊 Šiuo metu lentelėje: {len(wind_rows)} vėjo elektrinių projektų\n"
                 f"📅 Data: {date_str}\n\n"
                 f"Nuo rytojaus gausite pranešimus kai atsiras nauji įrašai."
             )
@@ -247,7 +290,7 @@ def main():
         if key not in previous:
             new_rows.append(row)
 
-    # Atnaujiname snapshot (išsaugome VISUS dabartinius)
+    # Atnaujiname snapshot
     all_keys = [make_key(r) for r in wind_rows]
     save_snapshot(all_keys)
     print("Snapshot išsaugotas.")
@@ -258,7 +301,7 @@ def main():
 
     print(f"\n⚠ Rasta {len(new_rows)} naujų įrašų:")
     for row in new_rows:
-        print(f"  • {row.get(COL_PAVADINIMAS, '?')}")
+        print(f"  • {get_field(row, COL_PAVADINIMAS)}")
 
     try:
         send_telegram(build_telegram_message(new_rows, date_str))
