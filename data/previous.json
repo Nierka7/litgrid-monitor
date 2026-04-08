@@ -133,8 +133,8 @@
     "Rezer_VE_tinklo_galia_LIT_ESO": 0,
     "Rezer_SE_tinklo_galia_LIT_ESO": 69,
     "Zonos_pralaidumas": 140,
-    "Laisva_galia_kaupikliams": 0,
-    "Rezervuota_galia_kaupikliams": 54,
+    "Laisva_galia_kaupikliams": 24,
+    "Rezervuota_galia_kaupikliams": 30,
     "Atributas_12": 20,
     "Rez_prij_galia_LITGRID_kaup": null,
     "Papildoma_informacija": null
@@ -546,9 +546,9 @@
     "Papildoma_informacija": null
   },
   "39": {
-    "Laisva_prijungimo_galia_VE": 25,
+    "Laisva_prijungimo_galia_VE": 53,
     "Laisva_prijungimo_galia_SE": 0,
-    "Rezer_ESO_tinklo_galia_VE": 43,
+    "Rezer_ESO_tinklo_galia_VE": 15,
     "Rezer_ESO_tinklo_galia_SE": 34,
     "Rezer_VE_tinklo_galia_LIT_ESO": 2,
     "Rezer_SE_tinklo_galia_LIT_ESO": 36,
@@ -945,8 +945,8 @@
     "Rezer_VE_tinklo_galia_LIT_ESO": 0,
     "Rezer_SE_tinklo_galia_LIT_ESO": 0,
     "Zonos_pralaidumas": 620,
-    "Laisva_galia_kaupikliams": 23,
-    "Rezervuota_galia_kaupikliams": 597,
+    "Laisva_galia_kaupikliams": 123,
+    "Rezervuota_galia_kaupikliams": 497,
     "Atributas_12": 0,
     "Rez_prij_galia_LITGRID_kaup": null,
     "Papildoma_informacija": null
@@ -1036,9 +1036,9 @@
     "Papildoma_informacija": null
   },
   "75": {
-    "Laisva_prijungimo_galia_VE": 8,
+    "Laisva_prijungimo_galia_VE": 32,
     "Laisva_prijungimo_galia_SE": 483,
-    "Rezer_ESO_tinklo_galia_VE": 592,
+    "Rezer_ESO_tinklo_galia_VE": 568,
     "Rezer_ESO_tinklo_galia_SE": 117,
     "Rezer_VE_tinklo_galia_LIT_ESO": 0,
     "Rezer_SE_tinklo_galia_LIT_ESO": 0,
@@ -1099,8 +1099,8 @@
     "Rezer_VE_tinklo_galia_LIT_ESO": 0,
     "Rezer_SE_tinklo_galia_LIT_ESO": 0,
     "Zonos_pralaidumas": 200,
-    "Laisva_galia_kaupikliams": 80,
-    "Rezervuota_galia_kaupikliams": 120,
+    "Laisva_galia_kaupikliams": 152,
+    "Rezervuota_galia_kaupikliams": 48,
     "Atributas_12": 0,
     "Rez_prij_galia_LITGRID_kaup": null,
     "Papildoma_informacija": null
@@ -1358,7 +1358,7 @@
     "Papildoma_informacija": null
   },
   "98": {
-    "Laisva_prijungimo_galia_VE": 8,
+    "Laisva_prijungimo_galia_VE": 32,
     "Laisva_prijungimo_galia_SE": 900,
     "Rezer_ESO_tinklo_galia_VE": 0,
     "Rezer_ESO_tinklo_galia_SE": 0,
