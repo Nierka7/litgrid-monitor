@@ -2,7 +2,8 @@ name: Litgrid Monitor
 
 on:
   schedule:
-    - cron: '0 6 * * *'   # Kasdien 08:00 Lietuvos laiku (06:00 UTC)
+    - cron: '30 6 * * *'   # Kasdien 09:30 Lietuvos laiku vasarą (06:30 UTC = EEST UTC+3)
+                            # Žiemą (EET UTC+2) bus 08:30 LT – GitHub Actions nepalaiko timezone
   workflow_dispatch:       # Galima paleisti rankiniu būdu
 
 jobs:
