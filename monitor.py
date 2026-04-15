@@ -8,6 +8,7 @@ siunčia pranešimus su pokyčiais per Telegram ir Gmail.
 
 import os
 import json
+import html as _html
 import smtplib
 import requests
 from datetime import datetime, timezone
@@ -210,6 +211,9 @@ def compare(old: dict, new: dict) -> list[dict]:
     """
     Grąžina sąrašą pakeitimų.
     Kiekvienas elementas: { "zona": "3", "label": "Zona 3 – ...", "diffs": [...] }
+
+    Teksto reikšmės yra HTML-escaped, kad Telegram HTML parse_mode veiktų
+    net jei API grąžina specialius simbolius (<, >, &).
     """
     changes = []
 
@@ -247,12 +251,16 @@ def compare(old: dict, new: dict) -> list[dict]:
             nv = new_rec.get(field)
             if ov == nv:
                 continue
+            # FIX: HTML-escape teksto reikšmes, nes Telegram naudoja parse_mode HTML.
+            # Jei API grąžina simbolius kaip <, >, &, Telegram atmes pranešimą.
+            ov_safe = _html.escape(ov) if ov else ov
+            nv_safe = _html.escape(nv) if nv else nv
             if not ov and nv:
-                diffs.append(f"  📌 {label}: atsirado → \"{nv}\"")
+                diffs.append(f"  📌 {label}: atsirado → \"{nv_safe}\"")
             elif ov and not nv:
-                diffs.append(f"  🗑 {label}: dingo (buvo: \"{ov}\")")
+                diffs.append(f"  🗑 {label}: dingo (buvo: \"{ov_safe}\")")
             else:
-                diffs.append(f"  📝 {label}: \"{ov}\" → \"{nv}\"")
+                diffs.append(f"  📝 {label}: \"{ov_safe}\" → \"{nv_safe}\"")
 
         if diffs:
             changes.append({"zona": z, "label": zone_label(z), "diffs": diffs})
