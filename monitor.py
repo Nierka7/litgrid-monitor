@@ -342,11 +342,25 @@ def build_email_html(changes: list[dict], date_str: str) -> str:
 
 # ─── Pranešimų siuntimas ───────────────────────────────────────────────────────
 def send_telegram(message: str):
+    import re
+
     resp = requests.post(
         f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage",
         json={"chat_id": TELEGRAM_CHAT_ID, "text": message, "parse_mode": "HTML"},
         timeout=15,
     )
+
+    if resp.status_code == 400:
+        # Telegram atmetė HTML – parodome tikslią klaidą ir siunčiame be formatavimo
+        err = resp.json().get("description", resp.text)
+        print(f"[Telegram] HTML klaida: {err}")
+        plain = re.sub(r"<[^>]+>", "", message)
+        resp = requests.post(
+            f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage",
+            json={"chat_id": TELEGRAM_CHAT_ID, "text": plain},
+            timeout=15,
+        )
+
     resp.raise_for_status()
     print("[Telegram] Išsiųsta ✓")
 
