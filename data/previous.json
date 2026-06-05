@@ -991,7 +991,7 @@
     "Rezervuota_galia_kaupikliams": 0,
     "Atributas_12": 0,
     "Rez_prij_galia_LITGRID_kaup": null,
-    "Papildoma_informacija": "Pralaidumo zona, kuriai įtaką daro 77 zonoje teismo pritaikytos laikinosios apsaugos priemonės. Apribojamas laisvų pralaidumų rezervavimas (įskaitant ketinimų protokolų pasirašymą) šioje zonoje vėjo elektrinėms visam šiuo metu laisvam VE profilio pralaidumui iki laikinųjų apsaugos priemonių galiojimo pabaigos."
+    "Papildoma_informacija": null
   },
   "72": {
     "Laisva_prijungimo_galia_VE": 250,
@@ -1075,7 +1075,7 @@
     "Rezervuota_galia_kaupikliams": 739,
     "Atributas_12": 0,
     "Rez_prij_galia_LITGRID_kaup": null,
-    "Papildoma_informacija": "Pralaidumo zona, kuriai galioja teismo pritaikytos laikinosios apsaugos priemonės, apribojančios laisvų pralaidumų rezervaciją (įskaitant ketinimų protokolų pasirašymą) šioje zonoje vėjo elektrinėms (280,8 MW apimtyje) iki laikinųjų apsaugos priemonių galiojimo pabaigos. Šios zonos pralaidumai susiję su 70 zonos pralaidumais."
+    "Papildoma_informacija": "Šios zonos pralaidumai susiję su 70 zonos pralaidumais."
   },
   "78": {
     "Laisva_prijungimo_galia_VE": 84,
@@ -1383,7 +1383,7 @@
     "Rezervuota_galia_kaupikliams": 0,
     "Atributas_12": 0,
     "Rez_prij_galia_LITGRID_kaup": null,
-    "Papildoma_informacija": "Pralaidumo zona, kuriai įtaką daro 77 zonoje teismo pritaikytos laikinosios apsaugos priemonės. Apribojamas laisvų pralaidumų rezervavimas (įskaitant ketinimų protokolų pasirašymą) šioje zonoje vėjo elektrinėms (280,8 MW apimtyje) iki laikinųjų apsaugos priemonių galiojimo pabaigos."
+    "Papildoma_informacija": null
   },
   "100": {
     "Laisva_prijungimo_galia_VE": 354,
@@ -1397,7 +1397,7 @@
     "Rezervuota_galia_kaupikliams": 0,
     "Atributas_12": 0,
     "Rez_prij_galia_LITGRID_kaup": null,
-    "Papildoma_informacija": "Pralaidumo zona, kuriai įtaką daro 77 zonoje teismo pritaikytos laikinosios apsaugos priemonės. Apribojamas laisvų pralaidumų rezervavimas (įskaitant ketinimų protokolų pasirašymą) šioje zonoje vėjo elektrinėms (280,8 MW apimtyje) iki laikinųjų apsaugos priemonių galiojimo pabaigos."
+    "Papildoma_informacija": null
   },
   "101": {
     "Laisva_prijungimo_galia_VE": 250,
@@ -1425,7 +1425,7 @@
     "Rezervuota_galia_kaupikliams": 0,
     "Atributas_12": 0,
     "Rez_prij_galia_LITGRID_kaup": null,
-    "Papildoma_informacija": "Pralaidumo zona, kuriai įtaką daro 77 zonoje teismo pritaikytos laikinosios apsaugos priemonės. Apribojamas laisvų pralaidumų rezervavimas (įskaitant ketinimų protokolų pasirašymą) šioje zonoje vėjo elektrinėms visam šiuo metu laisvam VE profilio pralaidumui iki laikinųjų apsaugos priemonių galiojimo pabaigos."
+    "Papildoma_informacija": null
   },
   "103": {
     "Laisva_prijungimo_galia_VE": 1240,
@@ -1439,7 +1439,7 @@
     "Rezervuota_galia_kaupikliams": 0,
     "Atributas_12": 0,
     "Rez_prij_galia_LITGRID_kaup": null,
-    "Papildoma_informacija": "Pralaidumo zona, kuriai įtaką daro 77 zonoje teismo pritaikytos laikinosios apsaugos priemonės. Apribojamas laisvų pralaidumų rezervavimas (įskaitant ketinimų protokolų pasirašymą) šioje zonoje vėjo elektrinėms (280,8 MW apimtyje) iki laikinųjų apsaugos priemonių galiojimo pabaigos."
+    "Papildoma_informacija": null
   },
   "104": {
     "Laisva_prijungimo_galia_VE": 1240,
