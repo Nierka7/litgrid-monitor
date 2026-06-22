@@ -133,8 +133,8 @@
     "Rezer_VE_tinklo_galia_LIT_ESO": 0,
     "Rezer_SE_tinklo_galia_LIT_ESO": 69,
     "Zonos_pralaidumas": 140,
-    "Laisva_galia_kaupikliams": 24,
-    "Rezervuota_galia_kaupikliams": 30,
+    "Laisva_galia_kaupikliams": 0,
+    "Rezervuota_galia_kaupikliams": 54,
     "Atributas_12": 20,
     "Rez_prij_galia_LITGRID_kaup": null,
     "Papildoma_informacija": null
@@ -182,15 +182,15 @@
     "Papildoma_informacija": null
   },
   "13": {
-    "Laisva_prijungimo_galia_VE": 67,
+    "Laisva_prijungimo_galia_VE": 60,
     "Laisva_prijungimo_galia_SE": 0,
-    "Rezer_ESO_tinklo_galia_VE": 0,
+    "Rezer_ESO_tinklo_galia_VE": 7,
     "Rezer_ESO_tinklo_galia_SE": 60,
     "Rezer_VE_tinklo_galia_LIT_ESO": 3,
     "Rezer_SE_tinklo_galia_LIT_ESO": 10,
     "Zonos_pralaidumas": 70,
-    "Laisva_galia_kaupikliams": 27,
-    "Rezervuota_galia_kaupikliams": 15,
+    "Laisva_galia_kaupikliams": 12,
+    "Rezervuota_galia_kaupikliams": 30,
     "Atributas_12": 28,
     "Rez_prij_galia_LITGRID_kaup": null,
     "Papildoma_informacija": "Pralaidumo zona, kuriai galioja teismo pritaikytos laikinosios apsaugos priemonės, apribojančios išankstinių prijungimo sąlygų išdavimą ir laisvų pralaidumų rezervaciją (įskaitant ketinimų protokolų pasirašymą) šioje zonoje vėjo elektrinėms (60 MW apimtyje) ir energijos kaupimo įrenginiams (12 MW apimtyje) iki laikinųjų apsaugos priemonių galiojimo pabaigos. Šioje zonoje nėra laisvų pralaidumų EEKĮ krovimuisi"
@@ -207,7 +207,7 @@
     "Rezervuota_galia_kaupikliams": 0,
     "Atributas_12": 20,
     "Rez_prij_galia_LITGRID_kaup": null,
-    "Papildoma_informacija": null
+    "Papildoma_informacija": "Šioje zonoje nėra laisvų pralaidumų EEKĮ krovimuisi"
   },
   "15": {
     "Laisva_prijungimo_galia_VE": 6,
@@ -235,7 +235,7 @@
     "Rezervuota_galia_kaupikliams": 8,
     "Atributas_12": 28,
     "Rez_prij_galia_LITGRID_kaup": null,
-    "Papildoma_informacija": null
+    "Papildoma_informacija": "Šioje zonoje nėra laisvų pralaidumų EEKĮ krovimuisi"
   },
   "17": {
     "Laisva_prijungimo_galia_VE": 36,
@@ -263,7 +263,7 @@
     "Rezervuota_galia_kaupikliams": 0,
     "Atributas_12": 28,
     "Rez_prij_galia_LITGRID_kaup": null,
-    "Papildoma_informacija": null
+    "Papildoma_informacija": "Šioje zonoje nėra laisvų pralaidumų EEKĮ krovimuisi"
   },
   "19": {
     "Laisva_prijungimo_galia_VE": 47,
@@ -277,7 +277,7 @@
     "Rezervuota_galia_kaupikliams": 0,
     "Atributas_12": 28,
     "Rez_prij_galia_LITGRID_kaup": null,
-    "Papildoma_informacija": null
+    "Papildoma_informacija": "Šioje zonoje nėra laisvų pralaidumų EEKĮ krovimuisi"
   },
   "20": {
     "Laisva_prijungimo_galia_VE": 28,
@@ -504,9 +504,9 @@
     "Papildoma_informacija": "Šioje zonoje nėra laisvų pralaidumų EEKĮ krovimuisi"
   },
   "36": {
-    "Laisva_prijungimo_galia_VE": 55,
+    "Laisva_prijungimo_galia_VE": 27,
     "Laisva_prijungimo_galia_SE": 0,
-    "Rezer_ESO_tinklo_galia_VE": 15,
+    "Rezer_ESO_tinklo_galia_VE": 43,
     "Rezer_ESO_tinklo_galia_SE": 130,
     "Rezer_VE_tinklo_galia_LIT_ESO": 20,
     "Rezer_SE_tinklo_galia_LIT_ESO": 10,
@@ -546,9 +546,9 @@
     "Papildoma_informacija": null
   },
   "39": {
-    "Laisva_prijungimo_galia_VE": 53,
+    "Laisva_prijungimo_galia_VE": 25,
     "Laisva_prijungimo_galia_SE": 0,
-    "Rezer_ESO_tinklo_galia_VE": 15,
+    "Rezer_ESO_tinklo_galia_VE": 43,
     "Rezer_ESO_tinklo_galia_SE": 34,
     "Rezer_VE_tinklo_galia_LIT_ESO": 2,
     "Rezer_SE_tinklo_galia_LIT_ESO": 36,
@@ -875,8 +875,8 @@
     "Rezer_VE_tinklo_galia_LIT_ESO": 23,
     "Rezer_SE_tinklo_galia_LIT_ESO": 46,
     "Zonos_pralaidumas": 70,
-    "Laisva_galia_kaupikliams": 15,
-    "Rezervuota_galia_kaupikliams": 29,
+    "Laisva_galia_kaupikliams": 0,
+    "Rezervuota_galia_kaupikliams": 44,
     "Atributas_12": 28,
     "Rez_prij_galia_LITGRID_kaup": null,
     "Papildoma_informacija": null
@@ -945,8 +945,8 @@
     "Rezer_VE_tinklo_galia_LIT_ESO": 0,
     "Rezer_SE_tinklo_galia_LIT_ESO": 0,
     "Zonos_pralaidumas": 620,
-    "Laisva_galia_kaupikliams": 523,
-    "Rezervuota_galia_kaupikliams": 97,
+    "Laisva_galia_kaupikliams": 53,
+    "Rezervuota_galia_kaupikliams": 567,
     "Atributas_12": 0,
     "Rez_prij_galia_LITGRID_kaup": null,
     "Papildoma_informacija": null
@@ -959,8 +959,8 @@
     "Rezer_VE_tinklo_galia_LIT_ESO": 0,
     "Rezer_SE_tinklo_galia_LIT_ESO": 0,
     "Zonos_pralaidumas": 600,
-    "Laisva_galia_kaupikliams": 318,
-    "Rezervuota_galia_kaupikliams": 282,
+    "Laisva_galia_kaupikliams": 10,
+    "Rezervuota_galia_kaupikliams": 590,
     "Atributas_12": 0,
     "Rez_prij_galia_LITGRID_kaup": null,
     "Papildoma_informacija": null
@@ -1043,8 +1043,8 @@
     "Rezer_VE_tinklo_galia_LIT_ESO": 0,
     "Rezer_SE_tinklo_galia_LIT_ESO": 0,
     "Zonos_pralaidumas": 600,
-    "Laisva_galia_kaupikliams": 452,
-    "Rezervuota_galia_kaupikliams": 148,
+    "Laisva_galia_kaupikliams": 400,
+    "Rezervuota_galia_kaupikliams": 200,
     "Atributas_12": 0,
     "Rez_prij_galia_LITGRID_kaup": null,
     "Papildoma_informacija": "Prijungimas prie Jurbarko TP galimas tik po Operatoriaus planuojamos Jurbarko TP rekonstrukcijos darbų užbaigimo, kuris preliminariai numatomas ne anksčiau kaip 2032 Q4."
@@ -1064,10 +1064,10 @@
     "Papildoma_informacija": null
   },
   "77": {
-    "Laisva_prijungimo_galia_VE": 354,
-    "Laisva_prijungimo_galia_SE": 248,
-    "Rezer_ESO_tinklo_galia_VE": 1006,
-    "Rezer_ESO_tinklo_galia_SE": 713,
+    "Laisva_prijungimo_galia_VE": 0,
+    "Laisva_prijungimo_galia_SE": 150,
+    "Rezer_ESO_tinklo_galia_VE": 1360,
+    "Rezer_ESO_tinklo_galia_SE": 811,
     "Rezer_VE_tinklo_galia_LIT_ESO": 0,
     "Rezer_SE_tinklo_galia_LIT_ESO": 0,
     "Zonos_pralaidumas": 1360,
@@ -1099,8 +1099,8 @@
     "Rezer_VE_tinklo_galia_LIT_ESO": 0,
     "Rezer_SE_tinklo_galia_LIT_ESO": 0,
     "Zonos_pralaidumas": 200,
-    "Laisva_galia_kaupikliams": 152,
-    "Rezervuota_galia_kaupikliams": 48,
+    "Laisva_galia_kaupikliams": 0,
+    "Rezervuota_galia_kaupikliams": 200,
     "Atributas_12": 0,
     "Rez_prij_galia_LITGRID_kaup": null,
     "Papildoma_informacija": null
@@ -1169,8 +1169,8 @@
     "Rezer_VE_tinklo_galia_LIT_ESO": 6,
     "Rezer_SE_tinklo_galia_LIT_ESO": 83,
     "Zonos_pralaidumas": 250,
-    "Laisva_galia_kaupikliams": 100,
-    "Rezervuota_galia_kaupikliams": 50,
+    "Laisva_galia_kaupikliams": 51,
+    "Rezervuota_galia_kaupikliams": 99,
     "Atributas_12": 40,
     "Rez_prij_galia_LITGRID_kaup": null,
     "Papildoma_informacija": null
@@ -1239,8 +1239,8 @@
     "Rezer_VE_tinklo_galia_LIT_ESO": 0,
     "Rezer_SE_tinklo_galia_LIT_ESO": 0,
     "Zonos_pralaidumas": 175,
-    "Laisva_galia_kaupikliams": 18,
-    "Rezervuota_galia_kaupikliams": 50,
+    "Laisva_galia_kaupikliams": 2,
+    "Rezervuota_galia_kaupikliams": 66,
     "Atributas_12": 0,
     "Rez_prij_galia_LITGRID_kaup": null,
     "Papildoma_informacija": "Šioje zonoje nėra laisvų pralaidumų EEKĮ krovimuisi"
@@ -1253,8 +1253,8 @@
     "Rezer_VE_tinklo_galia_LIT_ESO": 6,
     "Rezer_SE_tinklo_galia_LIT_ESO": 6,
     "Zonos_pralaidumas": 200,
-    "Laisva_galia_kaupikliams": 110,
-    "Rezervuota_galia_kaupikliams": 50,
+    "Laisva_galia_kaupikliams": 10,
+    "Rezervuota_galia_kaupikliams": 150,
     "Atributas_12": 40,
     "Rez_prij_galia_LITGRID_kaup": null,
     "Papildoma_informacija": null
@@ -1309,8 +1309,8 @@
     "Rezer_VE_tinklo_galia_LIT_ESO": 0,
     "Rezer_SE_tinklo_galia_LIT_ESO": 0,
     "Zonos_pralaidumas": 620,
-    "Laisva_galia_kaupikliams": 600,
-    "Rezervuota_galia_kaupikliams": 20,
+    "Laisva_galia_kaupikliams": 500,
+    "Rezervuota_galia_kaupikliams": 120,
     "Atributas_12": 0,
     "Rez_prij_galia_LITGRID_kaup": null,
     "Papildoma_informacija": null
@@ -1337,7 +1337,7 @@
     "Rezer_VE_tinklo_galia_LIT_ESO": 0,
     "Rezer_SE_tinklo_galia_LIT_ESO": 0,
     "Zonos_pralaidumas": 620,
-    "Laisva_galia_kaupikliams": 600,
+    "Laisva_galia_kaupikliams": 500,
     "Rezervuota_galia_kaupikliams": 0,
     "Atributas_12": 0,
     "Rez_prij_galia_LITGRID_kaup": null,
@@ -1351,8 +1351,8 @@
     "Rezer_VE_tinklo_galia_LIT_ESO": 0,
     "Rezer_SE_tinklo_galia_LIT_ESO": 0,
     "Zonos_pralaidumas": 1240,
-    "Laisva_galia_kaupikliams": 620,
-    "Rezervuota_galia_kaupikliams": 0,
+    "Laisva_galia_kaupikliams": 420,
+    "Rezervuota_galia_kaupikliams": 200,
     "Atributas_12": 0,
     "Rez_prij_galia_LITGRID_kaup": null,
     "Papildoma_informacija": null
@@ -1365,15 +1365,15 @@
     "Rezer_VE_tinklo_galia_LIT_ESO": 0,
     "Rezer_SE_tinklo_galia_LIT_ESO": 0,
     "Zonos_pralaidumas": 1200,
-    "Laisva_galia_kaupikliams": 600,
-    "Rezervuota_galia_kaupikliams": 0,
+    "Laisva_galia_kaupikliams": 400,
+    "Rezervuota_galia_kaupikliams": 200,
     "Atributas_12": 0,
     "Rez_prij_galia_LITGRID_kaup": null,
     "Papildoma_informacija": null
   },
   "99": {
-    "Laisva_prijungimo_galia_VE": 354,
-    "Laisva_prijungimo_galia_SE": 248,
+    "Laisva_prijungimo_galia_VE": 0,
+    "Laisva_prijungimo_galia_SE": 150,
     "Rezer_ESO_tinklo_galia_VE": 0,
     "Rezer_ESO_tinklo_galia_SE": 0,
     "Rezer_VE_tinklo_galia_LIT_ESO": 0,
@@ -1428,8 +1428,8 @@
     "Papildoma_informacija": null
   },
   "103": {
-    "Laisva_prijungimo_galia_VE": 1240,
-    "Laisva_prijungimo_galia_SE": 1000,
+    "Laisva_prijungimo_galia_VE": 886,
+    "Laisva_prijungimo_galia_SE": 902,
     "Rezer_ESO_tinklo_galia_VE": 0,
     "Rezer_ESO_tinklo_galia_SE": 0,
     "Rezer_VE_tinklo_galia_LIT_ESO": 0,
@@ -1463,8 +1463,8 @@
     "Rezer_VE_tinklo_galia_LIT_ESO": 0,
     "Rezer_SE_tinklo_galia_LIT_ESO": 0,
     "Zonos_pralaidumas": 1480,
-    "Laisva_galia_kaupikliams": 740,
-    "Rezervuota_galia_kaupikliams": 140,
+    "Laisva_galia_kaupikliams": 320,
+    "Rezervuota_galia_kaupikliams": 560,
     "Atributas_12": 0,
     "Rez_prij_galia_LITGRID_kaup": null,
     "Papildoma_informacija": null
@@ -1477,8 +1477,8 @@
     "Rezer_VE_tinklo_galia_LIT_ESO": 0,
     "Rezer_SE_tinklo_galia_LIT_ESO": 0,
     "Zonos_pralaidumas": 1480,
-    "Laisva_galia_kaupikliams": 740,
-    "Rezervuota_galia_kaupikliams": 0,
+    "Laisva_galia_kaupikliams": 540,
+    "Rezervuota_galia_kaupikliams": 200,
     "Atributas_12": 0,
     "Rez_prij_galia_LITGRID_kaup": null,
     "Papildoma_informacija": null
