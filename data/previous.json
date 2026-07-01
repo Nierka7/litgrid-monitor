@@ -57,11 +57,11 @@
   },
   "4": {
     "Laisva_prijungimo_galia_VE": 0,
-    "Laisva_prijungimo_galia_SE": 21,
+    "Laisva_prijungimo_galia_SE": 0,
     "Rezer_ESO_tinklo_galia_VE": 73,
     "Rezer_ESO_tinklo_galia_SE": 17,
     "Rezer_VE_tinklo_galia_LIT_ESO": 0,
-    "Rezer_SE_tinklo_galia_LIT_ESO": 32,
+    "Rezer_SE_tinklo_galia_LIT_ESO": 53,
     "Zonos_pralaidumas": 70,
     "Laisva_galia_kaupikliams": 0,
     "Rezervuota_galia_kaupikliams": 66,
@@ -126,11 +126,11 @@
     "Papildoma_informacija": null
   },
   "9": {
-    "Laisva_prijungimo_galia_VE": 2,
+    "Laisva_prijungimo_galia_VE": 0,
     "Laisva_prijungimo_galia_SE": 0,
     "Rezer_ESO_tinklo_galia_VE": 148,
     "Rezer_ESO_tinklo_galia_SE": 0,
-    "Rezer_VE_tinklo_galia_LIT_ESO": 0,
+    "Rezer_VE_tinklo_galia_LIT_ESO": 2,
     "Rezer_SE_tinklo_galia_LIT_ESO": 69,
     "Zonos_pralaidumas": 140,
     "Laisva_galia_kaupikliams": 0,
@@ -217,9 +217,9 @@
     "Rezer_VE_tinklo_galia_LIT_ESO": 0,
     "Rezer_SE_tinklo_galia_LIT_ESO": 39,
     "Zonos_pralaidumas": 70,
-    "Laisva_galia_kaupikliams": 21,
+    "Laisva_galia_kaupikliams": 19,
     "Rezervuota_galia_kaupikliams": 45,
-    "Atributas_12": 4,
+    "Atributas_12": 6,
     "Rez_prij_galia_LITGRID_kaup": null,
     "Papildoma_informacija": "Šioje zonoje nėra laisvų pralaidumų EEKĮ krovimuisi"
   },
@@ -483,11 +483,11 @@
     "Rezer_VE_tinklo_galia_LIT_ESO": 18,
     "Rezer_SE_tinklo_galia_LIT_ESO": 128,
     "Zonos_pralaidumas": 140,
-    "Laisva_galia_kaupikliams": 5,
+    "Laisva_galia_kaupikliams": 0,
     "Rezervuota_galia_kaupikliams": 55,
-    "Atributas_12": 80,
+    "Atributas_12": 82,
     "Rez_prij_galia_LITGRID_kaup": null,
-    "Papildoma_informacija": "Šioje zonoje nėra laisvų pralaidumų EEKĮ krovimuisi. Rezervuota LITGRID tinklo galia skirstomojo tinklo operatoriaus Dainavos Elektra atbuliniam srautui dėl SE - 5MW"
+    "Papildoma_informacija": "Šioje zonoje nėra laisvų pralaidumų EEKĮ krovimuisi. Rezervuota LITGRID tinklo galia skirstomojo tinklo operatoriaus Dainavos Elektra atbuliniam srautui dėl SE - 5MW ir dėl EEKĮ - 3MW"
   },
   "35": {
     "Laisva_prijungimo_galia_VE": 54,
@@ -511,11 +511,11 @@
     "Rezer_VE_tinklo_galia_LIT_ESO": 20,
     "Rezer_SE_tinklo_galia_LIT_ESO": 10,
     "Zonos_pralaidumas": 140,
-    "Laisva_galia_kaupikliams": 0,
+    "Laisva_galia_kaupikliams": 10,
     "Rezervuota_galia_kaupikliams": 103,
-    "Atributas_12": 36,
+    "Atributas_12": 26,
     "Rez_prij_galia_LITGRID_kaup": null,
-    "Papildoma_informacija": null
+    "Papildoma_informacija": "Šioje zonoje nėra laisvų pralaidumų EEKĮ krovimuisi"
   },
   "37": {
     "Laisva_prijungimo_galia_VE": 25,
@@ -799,11 +799,11 @@
   },
   "57": {
     "Laisva_prijungimo_galia_VE": 30,
-    "Laisva_prijungimo_galia_SE": 20,
+    "Laisva_prijungimo_galia_SE": 0,
     "Rezer_ESO_tinklo_galia_VE": 0,
     "Rezer_ESO_tinklo_galia_SE": 0,
     "Rezer_VE_tinklo_galia_LIT_ESO": 35,
-    "Rezer_SE_tinklo_galia_LIT_ESO": 38,
+    "Rezer_SE_tinklo_galia_LIT_ESO": 58,
     "Zonos_pralaidumas": 70,
     "Laisva_galia_kaupikliams": 0,
     "Rezervuota_galia_kaupikliams": 0,
