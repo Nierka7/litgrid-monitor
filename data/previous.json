@@ -980,8 +980,8 @@
     "Papildoma_informacija": "Šios zonos pralaidumai susiję su 77 zonos pralaidumais."
   },
   "71": {
-    "Laisva_prijungimo_galia_VE": 0,
-    "Laisva_prijungimo_galia_SE": 440,
+    "Laisva_prijungimo_galia_VE": 122,
+    "Laisva_prijungimo_galia_SE": 471,
     "Rezer_ESO_tinklo_galia_VE": 0,
     "Rezer_ESO_tinklo_galia_SE": 300,
     "Rezer_VE_tinklo_galia_LIT_ESO": 0,
@@ -1064,10 +1064,10 @@
     "Papildoma_informacija": null
   },
   "77": {
-    "Laisva_prijungimo_galia_VE": 0,
-    "Laisva_prijungimo_galia_SE": 199,
-    "Rezer_ESO_tinklo_galia_VE": 1360,
-    "Rezer_ESO_tinklo_galia_SE": 762,
+    "Laisva_prijungimo_galia_VE": 122,
+    "Laisva_prijungimo_galia_SE": 230,
+    "Rezer_ESO_tinklo_galia_VE": 1238,
+    "Rezer_ESO_tinklo_galia_SE": 731,
     "Rezer_VE_tinklo_galia_LIT_ESO": 0,
     "Rezer_SE_tinklo_galia_LIT_ESO": 0,
     "Zonos_pralaidumas": 1360,
@@ -1372,8 +1372,8 @@
     "Papildoma_informacija": null
   },
   "99": {
-    "Laisva_prijungimo_galia_VE": 0,
-    "Laisva_prijungimo_galia_SE": 199,
+    "Laisva_prijungimo_galia_VE": 122,
+    "Laisva_prijungimo_galia_SE": 230,
     "Rezer_ESO_tinklo_galia_VE": 0,
     "Rezer_ESO_tinklo_galia_SE": 0,
     "Rezer_VE_tinklo_galia_LIT_ESO": 0,
@@ -1414,8 +1414,8 @@
     "Papildoma_informacija": null
   },
   "102": {
-    "Laisva_prijungimo_galia_VE": 0,
-    "Laisva_prijungimo_galia_SE": 440,
+    "Laisva_prijungimo_galia_VE": 122,
+    "Laisva_prijungimo_galia_SE": 471,
     "Rezer_ESO_tinklo_galia_VE": 0,
     "Rezer_ESO_tinklo_galia_SE": 0,
     "Rezer_VE_tinklo_galia_LIT_ESO": 0,
@@ -1428,8 +1428,8 @@
     "Papildoma_informacija": null
   },
   "103": {
-    "Laisva_prijungimo_galia_VE": 886,
-    "Laisva_prijungimo_galia_SE": 951,
+    "Laisva_prijungimo_galia_VE": 1008,
+    "Laisva_prijungimo_galia_SE": 982,
     "Rezer_ESO_tinklo_galia_VE": 0,
     "Rezer_ESO_tinklo_galia_SE": 0,
     "Rezer_VE_tinklo_galia_LIT_ESO": 0,
